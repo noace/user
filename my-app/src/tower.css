@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background-color: #f4f7ed;
+    
+}
+
+.container {
+    height: 32px;
+    width: 100%;
+    padding: 12px 24px;
+    line-height: 32px;
+}
+
+.title {
+    float: left;
+    font:  700 20px Calibri;
+}
+
+ul{
+    width: 530px;
+    position: fixed;
+    margin-left: 50px;
+}
+nav ul,li {
+    margin: 0;
+    padding: 0;
+   list-style: none;
+   display: inline-block;
+}
+
+ul li {
+    height: 32px;
+    line-height: 32px;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(0,0,0,.6);
+}
+
+ul li:hover{
+    cursor: pointer;
+    color: #44acb6;
+    
+}
+
+#project_color {
+    color: black;
+}
